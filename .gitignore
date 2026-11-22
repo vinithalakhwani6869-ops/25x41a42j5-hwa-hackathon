@@ -1,0 +1,11 @@
+node_modules/
+.hwa/
+.vercel/
+.env*
+init.py
+init (*).py
+submit.py
+hwa-start.*
+.DS_Store
+dist/
+.vercel

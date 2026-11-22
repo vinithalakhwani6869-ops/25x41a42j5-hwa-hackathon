@@ -165,7 +165,8 @@ function initActivityTabs() {
     t.addEventListener("click", () => show(t.dataset.activity));
   });
 
-  show("sniff");
+  const hasDetail = document.getElementById("activity-title");
+  if (hasDetail) show("sniff");
 }
 
 /* ---------- Contact form ---------- */
