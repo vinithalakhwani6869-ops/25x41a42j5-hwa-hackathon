@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b4a3b"/>
+      <stop offset="100%" stop-color="#1e3328"/>
+    </linearGradient>
+    <radialGradient id="drumGrad" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#5a6e5c"/>
+      <stop offset="100%" stop-color="#263d32"/>
+    </radialGradient>
+    <drop-shadow id="shadow" dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+  </defs>
+
+  <!-- Base / platform -->
+  <rect x="60" y="560" width="680" height="110" rx="30" fill="url(#bodyGrad)"/>
+
+  <!-- Device housing -->
+  <rect x="120" y="130" width="560" height="470" rx="42" fill="url(#bodyGrad)" filter="url(#shadow)"/>
+
+  <!-- Drum face -->
+  <circle cx="400" cy="345" r="185" fill="url(#drumGrad)" stroke="#dccccb" stroke-width="10"/>
+  <circle cx="400" cy="345" r="180" fill="none" stroke="#849274" stroke-width="4" stroke-dasharray="6 6"/>
+
+  <!-- Chambers -->
+  <g fill="#f7f4ec" stroke="#849274" stroke-width="4">
+    <circle cx="400" cy="190" r="48"/>
+    <circle cx="575" cy="345" r="48"/>
+    <circle cx="400" cy="500" r="48"/>
+    <circle cx="225" cy="345" r="48"/>
+  </g>
+
+  <!-- Chamber labels -->
+  <g fill="#263d32" font-family="Georgia, serif" font-weight="700" font-size="22" text-anchor="middle" dominant-baseline="middle">
+    <text x="400" y="190">1</text>
+    <text x="575" y="345">2</text>
+    <text x="400" y="500">3</text>
+    <text x="225" y="345">4</text>
+  </g>
+
+  <!-- Shutter (front access window) -->
+  <rect x="300" y="325" width="200" height="40" rx="8" fill="#242522"/>
+  <rect x="300" y="325" width="200" height="40" rx="8" fill="none" stroke="#f7f4ec" stroke-width="4"/>
+  <rect x="300" y="325" width="200" height="40" rx="6" fill="#849274" opacity="0.9"/>
+
+  <!-- Knob -->
+  <circle cx="640" cy="500" r="26" fill="#849274" stroke="#242522" stroke-width="4"/>
+
+  <!-- Scent accent dots -->
+  <g fill="#dccccb" opacity="0.7">
+    <circle cx="400" cy="120" r="6"/>
+    <circle cx="560" cy="150" r="5"/>
+    <circle cx="240" cy="150" r="6"/>
+    <circle cx="400" cy="580" r="5"/>
+    <circle cx="140" cy="345" r="6"/>
+    <circle cx="660" cy="345" r="5"/>
+  </g>
+
+  <!-- Highlight rim -->
+  <circle cx="400" cy="345" r="185" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="3"/>
+</svg>

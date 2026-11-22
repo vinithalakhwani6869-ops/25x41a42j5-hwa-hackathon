@@ -113,6 +113,10 @@ img { max-width: 100%; display: block; }
   width: 290px; height: 290px; border-radius: 50%; background: var(--forest);
   position: relative; border: 16px solid var(--charcoal); box-shadow: 0 30px 70px rgba(36,37,34,0.45);
   display: grid; place-items: center;
+  animation: rotate-drum 14s linear infinite;
+}
+@keyframes rotate-drum {
+  to { transform: rotate(360deg); }
 }
 .drum-label { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font-family: var(--font-serif); font-size: 0.85rem; color: var(--muted); letter-spacing 1px; letter-spacing: 1.5px; text-transform: uppercase; }
 
@@ -258,6 +262,7 @@ img { max-width: 100%; display: block; }
 .about p { color: #dcd7c9; font-size: 1.1rem; margin-bottom: 20px; line-height: 1.8; }
 .about-img { height: 520px; border-radius: var(--radius-lg); background: var(--forest);
   position: relative; overflow: hidden; box-shadow: var(--shadow-lg); }
+.about-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .about-img::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 30% 40%, rgba(132,146,116,0.15), transparent 60%); }
 .about-stats { margin-top: 34px; display: flex; gap: 34px; flex-wrap: wrap; }
 .stat { display: flex; flex-direction: column; gap: 6px; }
