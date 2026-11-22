@@ -43,8 +43,7 @@
 
     <div class="product-visual">
       <div class="drum-stage" data-state="1">
-        <div class="drum-label">Rotating enrichment drum</div>
-        <div class="drum-body">
+      <div class="drum-body">
           <div class="drum-core"></div>
           <div class="chamber c1 active">1</div>
           <div class="chamber c2">2</div>
@@ -71,6 +70,39 @@
         <source src="demo_vdo.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
+    </div>
+
+    <div class="steps-grid" role="tablist" aria-label="Process steps" style="margin-top:60px;">
+      <div class="step-card selected" role="tab" aria-selected="true" tabindex="0">
+        <div class="step-num">1</div>
+        <h3>Prepare</h3>
+        <p>Load chambers with scent materials and rewards.</p>
+        <div class="step-visual">Loading chambers</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">2</div>
+        <h3>Wind</h3>
+        <p>Turn the knob to arm the clockwork timing.</p>
+        <div class="step-visual">Winding the knob</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">3</div>
+        <h3>Explore</h3>
+        <p>Dog accesses the current scent activity.</p>
+        <div class="step-visual">Dog investigates</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">4</div>
+        <h3>Advance</h3>
+        <p>Drum rotates to the next chamber.</p>
+        <div class="step-visual">Drum rotates</div>
+      </div>
+    </div>
+
+    <div class="step-detail">
+      <h4 id="step-detail-title">Step 1 — Prepare the chambers</h4>
+      <p id="step-detail-text">The owner loads each chamber with dog-safe scent materials and an appropriate reward. Every chamber holds a different scent-based puzzle, ready for the day ahead.</p>
+      <div class="concept-badge" id="step-detail-visual">Loading chambers</div>
     </div>
   </div>
 </section>
@@ -103,11 +135,11 @@
         <h3 style="color:#fff;">Mechanical operation</h3>
         <p style="color:#b9c1ae;">A hand-wound spring drives a mechanical timing system. No batteries, no screens, no electronics to fail.</p>
       </div>
-      <div class="tech-card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
+      <!-- <div class="tech-card" style="background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.12);">
         <div class="tech-icon" style="background:rgba(132,146,116,0.15); color:var(--beige);">&#128204;</div>
         <h3 style="color:#fff;">Interchangeable modules</h3>
         <p style="color:#b9c1ae;">Chambers take swap-in scent modules. New modules keep the experience novel as the dog learns the old ones.</p>
-      </div>
+      </div> -->
     </div>
     <div style="margin-top:46px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:var(--radius-lg); padding:34px;">
       <p style="font-size:0.9rem; color:#b9c1ae;"><strong>Concept notice:</strong> Time plus smell is a proposed model and does not exist as a real product yet. No performance, safety, or effectiveness claims are made.</p>
@@ -213,7 +245,7 @@
       <h4>Legal</h4>
       <ul>
         <li><a href="#">Concept notice</a></li>
-        <li><a href="#">Privacy</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
       </ul>
     </div>
   </div>
