@@ -65,6 +65,9 @@ function initSteps() {
     if (detailTitle) detailTitle.textContent = d.title;
     if (detailText) detailText.textContent = d.text;
     if (detailVisual) detailVisual.textContent = d.visual;
+
+    const stage = document.querySelector(".drum-stage");
+    if (stage) stage.setAttribute("data-state", index);
   }
 
   cards.forEach((card, i) => {
