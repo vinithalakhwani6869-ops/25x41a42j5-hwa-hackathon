@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities — Time plus smell</title>
+<meta name="description" content="Explore the interchangeable scent modules: Sniff & Find, Slide & Discover, Lift & Explore, Search & Solve.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="mark">T+S</div>
+      <span>Time plus smell</span>
+    </a>
+    <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">&#9776;</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="technology.html">Our technology</a>
+      <a href="activities.html" aria-current="page">Activities</a>
+      <a href="index.html#about">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-cta">Register interest</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head" style="max-width:720px;">
+      <span class="section-kicker">Activities</span>
+      <h2>Explore activities</h2>
+      <p>Each chamber takes a different interchangeable scent module. Select one to see how it works, what the dog does, and which module it belongs to.</p>
+    </div>
+
+    <div class="activities-grid" role="tablist" aria-label="Activity modules">
+      <div class="activity-card" role="tab" aria-selected="true" tabindex="0" data-activity="sniff">
+        <div class="act-badge">01</div>
+        <h3>Sniff &amp; Find</h3>
+        <p>The dog uses its nose to locate a hidden reward among scent-bearing compartments.</p>
+        <div class="act-module">Scent nose module</div>
+      </div>
+      <div class="activity-card" role="tab" aria-selected="false" tabindex="0" data-activity="slide">
+        <div class="act-badge">02</div>
+        <h3>Slide &amp; Discover</h3>
+        <p>The dog moves a paw-friendly sliding panel to reveal a hidden reward.</p>
+        <div class="act-module">Paw-slide module</div>
+      </div>
+      <div class="activity-card" role="tab" aria-selected="false" tabindex="0" data-activity="lift">
+        <div class="act-badge">03</div>
+        <h3>Lift &amp; Explore</h3>
+        <p>The dog lifts a safe, oversized flap to discover a reward.</p>
+        <div class="act-module">Flap-lift module</div>
+      </div>
+      <div class="activity-card" role="tab" aria-selected="false" tabindex="0" data-activity="search">
+        <div class="act-badge">04</div>
+        <h3>Search &amp; Solve</h3>
+        <p>The dog investigates scent-bearing puzzle spaces and identifies the correct reward location.</p>
+        <div class="act-module">Puzzle-space module</div>
+      </div>
+    </div>
+
+    <div class="step-detail" style="margin-top:40px;">
+      <h4 id="activity-title">Sniff &amp; Find</h4>
+      <p><strong>Module:</strong> <span id="activity-module">Scent nose module</span></p>
+      <p><strong>Purpose:</strong> <span id="activity-purpose">Engages the dog's strongest sense — scent discrimination.</span></p>
+      <p><strong>What the dog does:</strong> <span id="activity-dog">The dog sniffs scent-bearing compartments to locate the hidden reward.</span></p>
+    </div>
+
+    <div style="margin-top:40px; background:var(--shell); border:1px solid var(--border); border-radius:var(--radius); padding:26px; text-align:center;">
+      <p style="font-size:0.88rem; color:var(--ink-soft);">These activity designs are alternative chamber concepts for the rotating drum. Each is a proposed module — not a finished product.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand">
+      <div class="logo" style="color:#fff;">
+        <div class="mark" style="background:var(--amber); color:#000;">T+S</div>
+        <span>Time plus smell</span>
+      </div>
+      <p>A proposed scent-based enrichment device for dogs.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Time plus smell &middot; Concept device — not a real product. No performance or safety claims are made.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

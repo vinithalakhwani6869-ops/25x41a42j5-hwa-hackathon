@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How it works — Time plus smell</title>
+<meta name="description" content="See how the Time plus smell rotating enrichment device works, step by step.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="mark">T+S</div>
+      <span>Time plus smell</span>
+    </a>
+    <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">&#9776;</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html" aria-current="page">How it works</a>
+      <a href="technology.html">Our technology</a>
+      <a href="activities.html">Activities</a>
+      <a href="index.html#about">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="nav-cta">Register interest</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="padding-top:10px;">
+  <div class="container">
+    <div class="section-head" style="max-width:720px;">
+      <span class="section-kicker">How it works</span>
+      <h2>Four steps. One rhythm.</h2>
+      <p>Select a step below to see what happens — and how the device visual responds.</p>
+    </div>
+
+    <div class="steps-grid" role="tablist" aria-label="Process steps">
+      <div class="step-card selected" role="tab" aria-selected="true" tabindex="0">
+        <div class="step-num">1</div>
+        <h3>Prepare</h3>
+        <p>Load chambers with scent materials and rewards.</p>
+        <div class="step-visual">Loading chambers</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">2</div>
+        <h3>Wind</h3>
+        <p>Turn the knob to arm the clockwork timing.</p>
+        <div class="step-visual">Winding the knob</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">3</div>
+        <h3>Explore</h3>
+        <p>Dog accesses the current scent activity.</p>
+        <div class="step-visual">Dog investigates</div>
+      </div>
+      <div class="step-card" role="tab" aria-selected="false" tabindex="0">
+        <div class="step-num">4</div>
+        <h3>Advance</h3>
+        <p>Drum rotates to the next chamber.</p>
+        <div class="step-visual">Drum rotates</div>
+      </div>
+    </div>
+
+    <div class="step-detail">
+      <h4 id="step-detail-title">Step 1 — Prepare the chambers</h4>
+      <p id="step-detail-text">The owner loads each chamber with dog-safe scent materials and an appropriate reward. Every chamber holds a different scent-based puzzle, ready for the day ahead.</p>
+      <div class="concept-badge" id="step-detail-visual">Loading chambers</div>
+    </div>
+  </div>
+</section>
+
+<!-- Drum simulation -->
+<section class="section" style="background:var(--paper);">
+  <div class="container">
+    <div class="sim-wrap">
+      <div class="sim-head">
+        <h3>Watch the drum advance</h3>
+        <p>Press the button to rotate the drum from one chamber to the next.</p>
+      </div>
+      <div class="drum-sim">
+        <div class="sim-drum">
+          <div class="sim-chamber sim-pos active">1</div>
+          <div class="sim-chamber sim-pos-1">2</div>
+          <div class="sim-chamber sim-pos-2">3</div>
+          <div class="sim-chamber sim-pos-3">4</div>
+        </div>
+        <div class="sim-shutter"><div class="sim-shutter-fill"></div></div>
+      </div>
+      <div class="sim-ctrl">
+        <button id="advance-drum" class="btn btn-primary">Advance to next chamber</button>
+      </div>
+      <p class="sim-hint">Concept demonstration only — this is not a real working device.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand">
+      <div class="logo" style="color:#fff;">
+        <div class="mark" style="background:var(--amber); color:#000;">T+S</div>
+        <span>Time plus smell</span>
+      </div>
+      <p>A proposed scent-based enrichment device for dogs.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Time plus smell &middot; Concept device — not a real product. No performance or safety claims are made.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

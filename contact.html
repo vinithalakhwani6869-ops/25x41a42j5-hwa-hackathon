@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Time plus smell</title>
+<meta name="description" content="Register your interest in Time plus smell, a proposed scent-based rotating enrichment device for dogs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <div class="mark">T+S</div>
+      <span>Time plus smell</span>
+    </a>
+    <button class="mobile-toggle" aria-expanded="false" aria-label="Open menu">&#9776;</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="technology.html">Our technology</a>
+      <a href="activities.html">Activities</a>
+      <a href="index.html#about">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="contact.html" class="nav-cta">Register interest</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section" style="padding:60px 0 100px;">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-head">
+        <h2>Register interest</h2>
+        <p>Time plus smell is a concept product. Leave your details to follow development — no purchase commitment.</p>
+      </div>
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required placeholder="e.g. Alex Rivera" maxlength="100">
+          <p class="form-note">We'll use this to address your message.</p>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required placeholder="e.g. alex@example.com" maxlength="200">
+          <p class="form-note">We'll only use this to reply to your interest.</p>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell us about your dog, or ask a question." maxlength="1000"></textarea>
+          <p class="form-note">Up to 1000 characters.</p>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:auto;">Send message</button>
+        <div id="form-message" class="form-msg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-brand">
+      <div class="logo" style="color:#fff;">
+        <div class="mark" style="background:var(--amber); color:#000;">T+S</div>
+        <span>Time plus smell</span>
+      </div>
+      <p>A proposed scent-based enrichment device for dogs.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Time plus smell &middot; Concept device — not a real product. No performance or safety claims are made.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
